@@ -8,7 +8,7 @@ repository = "https://github.com/EmbarkStudios/rust-gpu"
 description = "Macros for spirv-std"
 
 [lib]
-proc-macro = true
+#proc-macro = true
 
 [dependencies]
 #spirv-types = { path = "../shared", version = "0.4.0-alpha.3" }

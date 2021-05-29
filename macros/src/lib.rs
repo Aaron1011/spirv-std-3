@@ -1,5 +1,3 @@
-use proc_macro::TokenStream;
-
 /// A macro for creating SPIR-V `OpTypeImage` types.
 ///
 /// The grammar for the macro is as follows:
@@ -40,8 +38,4 @@ use proc_macro::TokenStream;
 ///   Accepted values: `true` or `false`. Default: `unknown`.
 ///
 /// [`ImageFormat`]: spirv_types::image_params::ImageFormat
-#[proc_macro]
-#[allow(nonstandard_style)]
-pub fn Image(item: TokenStream) -> TokenStream {
-    item
-}
+pub struct Foo;
